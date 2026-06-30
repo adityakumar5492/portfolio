@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 ADITYA KUMAR
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              4th Year B.Tech — Information Technology| CEC,Landran
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 Landran, Mohali
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ kumaraditya26sh@gmail.com | 📞 +91 7091084711
             </p>
           </div>
 
@@ -80,10 +80,9 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
-              Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+              Information Technology undergraduate with strong fundamentals in C++, Data Structures & Algorithms, and familiarity with MERN stack. 
+              Experience in building academic web projects and solving 400+ DSA problems, demonstrating strong problem-solving skills and a continuous learning mindset.
+              Eager to learn, contribute, and grow in a collaborative environment.
             </p>
           </motion.div>
         </motion.div>
@@ -106,19 +105,19 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>B.Tech in Information Technology</strong> — Chandigarh Engineering College,
+              Landran, 2023–2027 <br />
+              <span style={{ color: "#aaa" }}>GPA: 8.0</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
+              <strong>12th Board — S.N College </strong> (Bihar
               Board, 2022) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 78%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 67.2%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — St.paul's School</strong> (CBSE Board, 2020)
               <br />
-              <span style={{ color: "#aaa" }}>Percentage: 85%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 82.2%</span>
             </li>
           </ul>
         </motion.div>
@@ -132,10 +131,9 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
-            <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
-            <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
+            <li>1️⃣ Eventora : Event Booking Platform</li>
+            <li>2️⃣ Real Time Chat Application</li>
+            <li>3️⃣ Expense Tracker</li>
           </ul>
         </motion.div>
 
@@ -149,22 +147,17 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              "Python",
-              "C",
               "C++",
-              "Java",
-              "TensorFlow",
-              "PyTorch",
-              "Scikit-learn",
-              "OpenCV",
-              "YOLO",
-              "Streamlit",
+              "JavaScript",
+              "HTML",
+              "CSS",
               "React",
               "MySQL",
               "MongoDB",
               "Git",
-              "NLP",
-              "Explainable AI (XAI)",
+              "Postman",
+              "Operating system",
+              "Oops",
               "Problem Solving",
               "Teamwork",
               "Adaptability",
@@ -198,9 +191,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            { name: "🏆 LeetCode", link: "https://leetcode.com/u/adityakumar26/" },
+            { name: "💻 GitHub", link: "https://github.com/adityakumar5492" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/aditya-kumar-9a21002ba" },
           ].map((site) => (
             <motion.a
               key={site.name}
