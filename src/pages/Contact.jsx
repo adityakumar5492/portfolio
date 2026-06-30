@@ -65,7 +65,7 @@ export default function Contact() {
   { img: "/gmail.png", title: 'Email', link: 'mailto:kumaraditya26sh@gmail.com'},
   { img: "/whatsapp.png", title: 'WhatsApp', link: 'https://wa.me/+917091084711' },
   { img: "/insta.png", title: 'Instagram', link: 'https://www.instagram.com/adityaraj8297/'},
-  { img: "/facebook.png", title: 'Facebook', link: 'https://www.facebook.com/kunj.desai.222608' },
+  { img: "/facebook.png", title: 'Facebook', link: 'https://www.facebook.com/share/192NFP7LfC/' },
 ];
 
   return (

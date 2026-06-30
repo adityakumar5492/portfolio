@@ -5,27 +5,27 @@ import "./blog.css";
 
 export default function Blog() {
   const defaultPosts = [
-    {
-      id: 1,
-      title: "Why I Love Building AI Projects",
-      text: "Working on AI-based systems like mammogram cancer detection has taught me how impactful technology can be when applied to healthcare. Combining deep learning with real-world problems is my favorite way to innovate.",
-    },
-    {
-      id: 2,
-      title: "My Thoughts on Design & Aesthetics",
-      text: "I believe design should be a balance between functionality and emotion. Dark themes with minimalist layouts always inspire me to create something that feels personal and futuristic.",
-    },
-    {
-      id: 3,
-      title: "Balancing Tech and Creativity",
-      text: "As someone who codes and dances, I’ve realized creativity isn’t limited to art — it also lives in algorithms. Each project is like choreography for the mind.",
-    },
-    {
-      id: 4,
-      title: "The Beauty of Simple Code",
-      text: "Clean code isn’t just about fewer lines — it’s about clarity. Elegance in code feels like poetry to me — each function should have rhythm and purpose.",
-    },
-  ];
+  {
+    id: 1,
+    title: "My MERN Stack Journey",
+    text: "I started learning web development with HTML, CSS, and JavaScript. Now I'm building full-stack applications using the MERN Stack and improving my skills by creating practical projects.",
+  },
+  {
+    id: 2,
+    title: "Learning Through Projects",
+    text: "Building projects like an Event Booking Platform and a Real-Time Chat Application has helped me understand how frontend and backend work together. Every project teaches me something new.",
+  },
+  {
+    id: 3,
+    title: "Why I Practice DSA",
+    text: "I regularly solve Data Structures and Algorithms problems to strengthen my problem-solving skills. It helps me think logically and prepares me for coding interviews and placements.",
+  },
+  {
+    id: 4,
+    title: "Always Learning",
+    text: "As an Information Technology student, I believe learning never stops. I'm continuously exploring new technologies, improving my development skills, and working toward becoming a better full-stack developer.",
+  },
+];
 
   const [posts, setPosts] = useState([]);
 
