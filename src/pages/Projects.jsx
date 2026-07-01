@@ -4,12 +4,12 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    title: 'Eventora-Event Booking System',
+    desc: 'Enables users to explore upcoming events, book tickets securely, and manage their bookings through an intuitive interface.Provides user authentication, real-time seat availability, event search and filtering, and an admin panel for event management.',
+    ss: '/Event.png',
+    tech: ['JavaScript','React','ExpressJs','MongoDB'],
+    live: 'https://event-booking-mauve.vercel.app/',
+    code: 'https://github.com/adityakumar5492/event-booking.git'
   },
   {
   title: '🌦️ Weather App',
@@ -20,10 +20,10 @@ const PROJECTS = [
   code: 'https://github.com/yourusername/weather-app'
 },
   {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
+    title: 'Real Time Chat Application',
+    desc: 'Enables users to exchange real-time messages through instant, bidirectional communication with a responsive chat interface.Supports secure user authentication, online/offline status, typing indicators, message history, and media sharing for seamless conversations.',
     ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
+    tech: ['JavaScript', 'React', 'Express', 'MongoDB', 'Socket.io'],
     live: '#',
     code: 'https://github.com/kunjdesai/ISL-Interpreter'
   },
