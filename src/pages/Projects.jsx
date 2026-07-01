@@ -11,14 +11,7 @@ const PROJECTS = [
     live: 'https://event-booking-mauve.vercel.app/',
     code: 'https://github.com/adityakumar5492/event-booking.git'
   },
-  {
-  title: '🌦️ Weather App',
-  desc: 'A responsive weather application that provides real-time weather data including temperature, humidity, and conditions using a public weather API.',
-  ss: '/weather.png',
-  tech: ['React', 'API', 'JavaScript', 'CSS'],
-  live: 'https://your-weather-app-link.com',
-  code: 'https://github.com/yourusername/weather-app'
-},
+
   {
     title: 'Real Time Chat Application',
     desc: 'Enables users to exchange real-time messages through instant, bidirectional communication with a responsive chat interface.Supports secure user authentication, online/offline status, typing indicators, message history, and media sharing for seamless conversations.',
@@ -30,35 +23,11 @@ const PROJECTS = [
   {
   title: '💼 Portfolio Website',
   desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
+  ss: '/portimg.png',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  code: 'https://github.com/adityakumar5492/portfolio.git'
   },
-  {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
-  },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
-  }
 ]
 
 export default function Projects() {
@@ -80,7 +49,7 @@ export default function Projects() {
           🚀 Projects
         </motion.h2>
         <p className="text-gray-400 mb-10">
-          A collection of my major works — blending research, AI innovation.
+          A collection of projects I've built while learning and practicing the MERN stack.
         </p>
 
         <div className="projects-grid" style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>

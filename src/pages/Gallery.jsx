@@ -4,44 +4,16 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import "../CSS/Gallery.css";
 
 const IMAGES = {
-  personal: [
-    {
-      id: 1,
-      caption: "Lost in the beauty of the misty forest 🌲🌫️",
-      photos: ["/gallery/matheran.jpg", "/gallery/matheran2.jpg"],
-    },
-    {
-      id: 2,
-      caption:
-        "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/lonawala.jpg", "/gallery/lonawala2.jpg"],
-    },
-  ],
-  projects: [
-    {
-      id: 1,
-      caption:
-        "It’s an AI-powered tool that understands what someone might be feeling based on their words.",
-      photos: ["/gallery/m.png", "/gallery/m2.jpeg"],
-    },
-    
-    {
-      id: 1,
-      caption:
-        "📂ProfileX - Smart Data Profiler + Preprocessor",
-      photos: ["/gallery/profilex.jpeg", "/gallery/profilex2.jpeg","/gallery/profilex3.jpeg", "/gallery/profilex4.jpeg"],
-    },
-  ],
   achievements: [
     {
       id: 1,
-      caption: "Solved 1000 LeetCode questions 🏆!",
-      photos: ["/gallery/leet.jpeg"],
+      caption: "Solved 400+ geeksforgeeks problems 🏆!",
+      photos: ["/gfg.png"],
     },
     {
       id: 2,
-      caption: "Technical Lead at SCET AI Club 🤖",
-      photos: ["/gallery/techlead.png"],
+      caption: "🖥️ Successfully completed MERN Stack Development Training.",
+      photos: ["/certs/Mern.jpeg"],
     },
   ],
 };
@@ -66,8 +38,8 @@ const childVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-// ✨ Tab Switching Animations
-const tabContentVariants = {
+// ✨ Content Animation
+const contentVariants = {
   hidden: { opacity: 0, y: 30, scale: 0.98 },
   visible: {
     opacity: 1,
@@ -79,7 +51,6 @@ const tabContentVariants = {
 };
 
 export default function Gallery() {
-  const [tab, setTab] = useState("personal");
   const [zoom, setZoom] = useState({ img: null, post: null, index: 0 });
 
   const openZoom = (post, index) =>
@@ -113,32 +84,16 @@ export default function Gallery() {
         Gallery
       </motion.h2>
 
-      {/* 🧭 Tabs */}
-      <motion.div className="tab-buttons" variants={childVariants}>
-        {["personal", "projects", "achievements"].map((type) => (
-          <motion.button
-            key={type}
-            className={`tab ${tab === type ? "active" : ""}`}
-            onClick={() => setTab(type)}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            {type.charAt(0).toUpperCase() + type.slice(1)}
-          </motion.button>
-        ))}
-      </motion.div>
-
-      {/* 🖼️ Posts with Animation on Tab Switch */}
+      {/* 🖼️ Achievement Posts */}
       <AnimatePresence mode="wait">
         <motion.div
-          key={tab} // Important for AnimatePresence to detect tab change
           className="post-feed"
-          variants={tabContentVariants}
+          variants={contentVariants}
           initial="hidden"
           animate="visible"
           exit="exit"
         >
-          {IMAGES[tab].map((post) => (
+          {IMAGES.achievements.map((post) => (
             <motion.div
               key={post.id}
               className="post-card"
@@ -146,6 +101,7 @@ export default function Gallery() {
               whileHover={{ y: -4 }}
             >
               <p className="caption">{post.caption}</p>
+
               <div
                 className={`photo-grid ${
                   post.photos.length > 1 ? "multi" : "single"
@@ -194,11 +150,13 @@ export default function Gallery() {
                 <button className="nav-btn left" onClick={prevImage}>
                   <ChevronLeft size={32} />
                 </button>
+
                 <button className="nav-btn right" onClick={nextImage}>
                   <ChevronRight size={32} />
                 </button>
               </>
             )}
+
             <button className="close-btn" onClick={closeZoom}>
               <X size={28} />
             </button>
