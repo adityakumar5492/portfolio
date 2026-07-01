@@ -15,10 +15,10 @@ const PROJECTS = [
   {
     title: 'Real Time Chat Application',
     desc: 'Enables users to exchange real-time messages through instant, bidirectional communication with a responsive chat interface.Supports secure user authentication, online/offline status, typing indicators, message history, and media sharing for seamless conversations.',
-    ss: '/ISL.png',
+    ss: '/chat.png',
     tech: ['JavaScript', 'React', 'Express', 'MongoDB', 'Socket.io'],
     live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    code: 'https://github.com/adityakumar5492/real-time-chat-app.git'
   },
   {
   title: '💼 Portfolio Website',

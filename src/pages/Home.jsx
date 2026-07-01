@@ -80,10 +80,10 @@ export default function Home() {
             </motion.span>
           </h1>
 
-          {/* Typing Animated Text */}
+          {/* Typing Animated Text
           <p className="typing-effect">
-            Software Developer | React Developer | Tech Learner
-          </p>
+            Software Developer | Tech Learner
+          </p> */}
 
           {/* Profession Tags */}
           <motion.div className="profession-tags">
